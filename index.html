@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Burger - Delivery - Página Inicial</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="icon" href="assets/img/logo-nova.png" />
+    <meta name="author" content="Adelson Inácio" />
+
+    <!-- CDN bootstrap v5.1.0 -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/css/bootstrap.min.css" />
+    
+    <script
+      src="https://kit.fontawesome.com/894b816e6e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="wrapper-header">
+      <div class="container">
+        <a href="index.html">
+          <img
+            id="logo"
+            src="assets/img/logo-nova.png"
+            alt="Logo de Hamburguer da All Burger Delivery"
+          />
+        </a>
+        <nav class="wrapper-nav">
+          <ul class="wrapper-nav-list">
+            <li>
+              <a href="index.html" title="Página inicial de nossa hamburgueria"
+                >home</a
+              >
+            </li>
+            <li>
+              <a href="produtos.html" title="Confira nossas opções de burger"
+                >burgers</a
+              >
+            </li>
+            <li>
+              <a
+                href="check-out.html"
+                title="Finalise sua compra de nosso burger"
+                >check-out</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+         <!-- Mobile Nav -->
+         <div class="mobile-menu">
+           <i class="fas fa-hamburger menuIcon"></i>
+           <i class="far fa-window-close xIcon"></i>
+         </div> 
+         
+         <ul class="menu">
+           <li><a class="menuLink" href="#">Home</a></li>
+           <li><a class="menuLink" href="#">Profile</a></li>
+           <li><a class="menuLink" href="#">About</a></li>
+           <li><a class="menuLink" href="#">Contacts</a></li>
+         </ul>
+      </div>
+    </header>
+    <!-- /header -->
+
+    <main class="wrapper-main">
+
+      <section class="wrapper-section">
+        <img
+          id="img"
+          src="assets/img/burger-principal.jpg"
+          alt="Imagem de nosso delicioso Hamburger - Burger com fritas Delivery"
+        />
+
+        <div class="box">
+          <h1 class="titulo">All Burger</h1>
+          <p class="texto">Venha conhecer o melhor hamburguer da cidade, não perca essa oportunidade!</p>
+        </div>
+      </section>
+
+      <!-- efeito paralax -->
+      <div class="parallax"></div>
+
+      <section class="wrapper-section">
+        <img
+          id="img"
+          src="assets/img/confira-menu.jpg"
+          alt="Imagem de nosso delicioso Hamburger - Burger com fritas Delivery"
+        />
+
+        <a href="/produtos.html">
+        <div class="box">
+          <h1 class="titulo">Menu </h1>
+          <p class="texto">Confira nosso menu!</p>
+
+        </div>
+      </a>
+      </section>
+      <!-- efeito paralax -->
+      <div class="parallax"></div>
+
+      <section class="wrapper-maps" id="Contato">
+        <!-- create a form -->
+        <form action="">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <input type="text" class="form-control m-2" placeholder="Nome" />
+              </div>
+              
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <input type="text" class="form-control m-2" placeholder="Email" />
+              </div>
+              <div class="col-md-6">
+                <input type="text" class="form-control m-2" placeholder="Telefone" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <input type="text" class="form-control m-2" rows="5" placeholder="Comentário" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <button type="submit" class="btn btn-primary form-control m-2">Enviar</button>
+              </div>
+            </div>
+          </div>
+        </form>
+        
+      </section>
+
+      <section class="wrapper-maps" id="localizacao">
+        <iframe id="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3754.378701991975!2d-47.94320048565894!3d-19.781534486687054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bad00b57f478f5%3A0xeb0928f24fc2c1d2!2sR.%20Ab%C3%ADlio%20Monteiro%2C%20310%20-%20Recreio%20dos%20Bandeirantes%2C%20Uberaba%20-%20MG%2C%2038040-520!5e0!3m2!1sen!2sbr!4v1629261375280!5m2!1sen!2sbr" allowfullscreen="" loading="lazy"></iframe>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="wrapper-footer" id="social">
+        <h1 class="titulo">Contatos</h1>
+        <div>
+          <a
+            href="https://api.whatsapp.com/send?phone=5534998853940&text=Ol%C3%A1%2C%20Gostaria%20de%20fazer%20o%20meu%20pedido"
+          >
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="https://www.facebook.com/acinacio/">
+            <i class="fab fa-facebook lg"></i>
+          </a>
+          <a href="https://www.instagram.com/burger_delivery">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/niodio">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://www.github.com/niodio">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
